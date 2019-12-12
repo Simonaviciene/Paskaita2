@@ -10,6 +10,7 @@ namespace KintamiejiOperatoriai2
     {
         static void Main(string[] args)
         {
+
         }
     }
 }
