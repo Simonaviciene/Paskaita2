@@ -17,7 +17,7 @@ namespace KintamiejiOperatoriai1
             Console.WriteLine("Ivesti skaiciu: ");
             skaicius = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("skaicius {0}", skaicius);
+            Console.WriteLine("skaicius {0} {0} {0} {0}", skaicius);
             Console.ReadLine();
               
         }
