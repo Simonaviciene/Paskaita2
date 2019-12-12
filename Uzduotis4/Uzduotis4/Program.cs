@@ -28,7 +28,7 @@ namespace Uzduotis4
             Console.WriteLine("Siandienos data: {0}", siandienosData.ToLongDateString());
             Console.WriteLine("Kurso trukme {0}", skirtumasTarpPradziosIrPabaigos);
 
-            Console.ReadLine();
+            Console.ReadLine(); 
         }
     }
 }
