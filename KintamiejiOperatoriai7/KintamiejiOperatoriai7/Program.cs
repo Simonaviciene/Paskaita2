@@ -10,20 +10,18 @@ namespace KintamiejiOperatoriai7
     {
         static void Main(string[] args)
         {
-            int skaicius;
-            
-            Console.WriteLine("Ivesti pirma skaiciu: ");
-            skaicius = Convert.ToInt32(Console.ReadLine());
-        
-            if (skaicius < 0)
-            {
-                Console.WriteLine("True");
-            }
-            else
-            {
-                Console.WriteLine("False");
-            }
-                Console.ReadLine();
+            string vardas = " ";
+            string pavarde = " ";
+
+            Console.WriteLine("Ivesti Varda: ");
+            vardas = Console.ReadLine();
+            Console.WriteLine("Ivesti Pavarde: ");
+            pavarde = Console.ReadLine();
+
+
+            Console.WriteLine("{0} {1}", vardas, pavarde);
+           
+            Console.ReadLine();
         }
     }
 }
