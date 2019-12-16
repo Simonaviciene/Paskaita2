@@ -13,9 +13,9 @@ namespace KintamiejiOpetaroriai9
             string miestoPavadinimas = "Vilnius";
             string gatvesPavadinimas = "S. Zukausko g.";
             int namoNumeris = 21;
-            decimal namoPastatymoMetai = 2004m ;
+            decimal namoPastatymoMetai= 2004m;
 
-            Console.WriteLine("{0} {1} {2} {3}", miestoPavadinimas, gatvesPavadinimas, namoNumeris);
+            Console.WriteLine("{0} {1} {2} {3}", miestoPavadinimas, gatvesPavadinimas, namoNumeris, namoPastatymoMetai);
             Console.ReadLine();
         }
     }
