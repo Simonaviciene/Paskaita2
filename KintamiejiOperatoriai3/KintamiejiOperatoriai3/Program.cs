@@ -10,27 +10,27 @@ namespace KintamiejiOperatoriai3
     {
         static void Main(string[] args)
         {
-            int skaicius;
-            int skaicius1;
+            int A;
+            int B;
 
-            if (skaicius == skaicius1)
+            Console.WriteLine("Ivesti pirma skaiciu: ");
+            A = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Ivesti antra skaiciu: ");
+            B = Convert.ToInt32(Console.ReadLine());
+
+            if (A == B)
             {
-                Console.WriteLine("true");
+                Console.WriteLine("True");
             }
-            else 
-                {
-                    Console.WriteLine("false");
-                }
-               
+            else
+            {
+                Console.WriteLine("False");
+            }
+
             
 
-
-            Console.WriteLine("Ivesti du skaicius: ");
-            skaicius = Convert.ToInt32(Console.ReadLine());
-            skaicius1 = Convert.ToInt32(Console.ReadLine());
-
-            Console.WriteLine("skaicius {0}", skaicius);
-            Console.WriteLine("skaicius {0}", skaicius1);
+            Console.WriteLine("(a=b)");
+            
             Console.ReadLine();
         }
     }
