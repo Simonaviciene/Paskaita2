@@ -26,11 +26,8 @@ namespace KintamiejiOperatoriai3
             {
                 Console.WriteLine("False");
             }
-
-            
-
+             
             Console.WriteLine("(a=b)");
-            
             Console.ReadLine();
         }
     }
